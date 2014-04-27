@@ -1,0 +1,23 @@
+/*
+Autor: Daniel Roja
+*/
+
+@import "bootstrap/css/bootstrap.min.css"
+
+@import "vars.styl"
+
+/* Mobile First */
+@media screen and (max-width: 768px)
+	@import "base.styl"
+
+/* Tablets: Portrait */
+@media screen and (min-width: 769px) and (max-width: 991px)
+	@import "t_portrait.styl"
+
+/* Tablets: Landscape */
+@media screen and (min-width: 992px)
+	@import "t_landscape.styl"
+
+/* Desktop */
+@media screen and (min-width: 1200px)
+	@import "desktop.styl"
