@@ -1,27 +1,28 @@
 body
 	background url(images/geometry.png) 0 0 repeat #ccc
+	-webkit-font-smoothing: antialiased;
 
 a
-	color mentita-2
+	color mentita-1
 
 a:hover
 	color negro
 	text-decoration none
 
-a:visited
-	color orange
+/*a:visited
+	color orange*/
 
 h1
 	font 300 2em/1.5em open-sans
 
 h2
-	font 400 1.3em open-sans
+	font-family open-sans
 
 img
 	max-width 100%
 	height auto
 
-header
+header#principal
 	background #f4f4f4
 	height 200px
 	width 100%
@@ -40,16 +41,91 @@ header
 
 			.avatar
 				border-radius(200px)
-				border 4px solid mentita-2
+				border 4px solid mentita-1
 				height 100px
 				width 100px
 
 section
 	article
 		header
-			background none
+			/*background none
+			height inherit*/
 			text-align center
+			margin-bottom 20px
 
 			h2
 				font-size 4.5em
 				font-weight 700
+
+	nav
+		margin 0
+		width 100%
+
+		ul
+			width 283px
+			margin 0 auto
+
+			li
+				padding 0 10px
+
+				a
+					background mentita-1
+					color negro
+
+					span
+						font-size .8em
+						margin 0 10px 0 0
+						vertical-align baseline
+
+				a:hover
+					background negro!important
+					color white
+
+					span.glyphicon-heart
+						color #ff3366
+
+					span.glyphicon-star
+						color #ffcc00
+	nav.affix
+		background #f4f4f4
+		padding 20px 0
+		left 0
+		top 0px
+		width 100%
+		z-index 2
+
+		ul
+			margin 0 auto
+
+	#branding
+		.row
+			div
+				margin-top 15px
+				margin-bottom 15px
+
+
+	#web-design
+		
+		.row
+			div
+				margin-top 15px
+				margin-bottom 15px
+
+footer
+	color white
+	background negro
+	height 150px
+
+	nav
+		position relative
+		top 20px
+		
+		a
+			margin 0 2px 0 0
+			color white
+
+			span
+				font-size 1.5em
+
+		a:hover
+			color mentita-1

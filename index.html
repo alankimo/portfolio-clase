@@ -9,7 +9,7 @@
 		<link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
-		<header>
+		<header id="principal">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -29,11 +29,85 @@
 						<article>
 							<header><h2>Bienvenido!</h2> Mi nombre es Alan K. Alvarado Martínez, este es mi portafolio de trabajo.</header>
 						</article>
-						<aside> </aside>
+					</div>
+					<div class="col-lg-12">
+						<nav class="my-fix">
+						  <ul class="nav nav-pills">
+							<li><a href="#"><span class="glyphicon glyphicon-heart"></span> Branding</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-star"></span>Web Design</a></li>
+						  </ul>
+						</nav>
 					</div>
 				</div>
 			</div>
 		</section>
-		<footer> </footer>
+
+		<section>
+			<div id="branding" class="container">
+				<div class="page-header"><h2>Branding <small>Trabajos Realizados para empresas de sector público y privado en materia de identidad gráfica</small></h2></div>
+				<div class="row">
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="web-design" class="container">
+				<div class="page-header"><h2>Web Design<small>Trabajos Realizados para empresas de sector público y privado en materia de identidad gráfica</small></h2></div>
+				<div class="row">
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-dr-celular.png"></a></div>
+					<div class="col-lg-3"><a href="#"><img src="images/branding-conekta.png"></a></div>
+
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<nav>
+						<p>Sigueme en las <strong>redes</strong> sociales:</p>
+						<a href="#"><span class="icon-twitter2"></span></a>
+						<a href="#"><span class="icon-facebook2"></span></a>
+						<a href="#"><span class="icon-googplus"></span></a>
+						<a href="#"><span class="icon-pinterest"></span></a>
+						<a href="#"><span class="icon-tumblr"></span></a>
+						<a href="#"><span class="icon-linkedin"></span></a>
+						<a href="#"><span class="icon-dribbble"></span></a>
+						<a href="#"><span class="icon-behance"></span></a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $(".my-fix").affix({
+		        offset: { 
+		            top: 200
+		        }
+		    });
+		});
+	</script>
 	</body>
 </html>
